@@ -12,7 +12,7 @@ class DosenController extends Controller
     }
     public function biodata()
     {
-        $nama = "Yusuf Acala";
+        $nama = "Yusuf Acala Sadurjaya Sri Krisna";
         $umur = 20;
         $pelajaran = ["Algoritma & Pemrograman","Kalkulus","Pemrograman Web"];
 
