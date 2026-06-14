@@ -66,3 +66,5 @@ Route::get('/latihan_uas_cewek/nilaikuliah', [NilaiKuliahController::class, 'ind
 Route::get('/latihan_uas_cewek/nilaikuliah/tambah', [NilaiKuliahController::class, 'tambah']);
 Route::post('/latihan_uas_cewek/nilaikuliah/store', [NilaiKuliahController::class, 'store']);
 Route::get('/latihan_uas_cewek/nilaikuliah/hapus/{id}', [NilaiKuliahController::class, 'hapus']);
+
+//Persiapan EAS
