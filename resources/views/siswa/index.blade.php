@@ -2,13 +2,13 @@
 @section('title', 'Data Siswa')
 @section('konten')
 
-    <h2>Data Siswa</h2>
+    <h1>Data Siswa</h1>
 
     @if (session('success'))
         <p style="color: green;">{{ session('success') }}</p>
     @endif
 
-    <a href="{{ route('siswa.create') }}">Tambah Siswa</a>
+    <a href="{{ route('siswa.create') }}" class="btn btn-primary">Tambah Siswa</a>
 
     <br><br>
 
