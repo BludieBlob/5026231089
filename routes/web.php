@@ -5,10 +5,11 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController ;
 use App\Http\Controllers\BlogController ;
 use App\Http\Controllers\PegawaiDBController ;
+use App\Http\Controllers\KeranjangBelanjaController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcoming');
 });
 
 Route::get('halo', function () {
@@ -43,3 +44,12 @@ Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
 
+//crud tabel siswa
+
+
+//crud tabel keranjangbelanja
+
+Route::get('/latihan_uas/keranjang-belanja', [KeranjangBelanjaController::class, 'index']);
+Route::get('/latihan_uas/keranjang-belanja/tambah', [KeranjangBelanjaController::class, 'tambah']);
+Route::post('/latihan_uas/keranjang-belanja/store', [KeranjangBelanjaController::class, 'store']);
+Route::get('/latihan_uas/keranjang-belanja/hapus/{id}', [KeranjangBelanjaController::class, 'hapus']);

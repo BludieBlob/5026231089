@@ -22,10 +22,10 @@
                         <a class="nav-link active" href="/pegawai">Pegawai</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PR 1</a>
+                        <a class="nav-link" href="/siswa">Siswa</a> <!--dijadikan siswa dari PR 1-->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PR 2</a>
+                        <a class="nav-link" href="/latihan_uas/keranjang-belanja">PR 2</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PR 3</a>
