@@ -6,10 +6,11 @@ use App\Http\Controllers\PegawaiController ;
 use App\Http\Controllers\BlogController ;
 use App\Http\Controllers\PegawaiDBController ;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\NilaiKuliahController;
 
 
 Route::get('/', function () {
-    return view('welcoming');
+    return view('template');
 });
 
 Route::get('halo', function () {
@@ -53,3 +54,9 @@ Route::get('/latihan_uas/keranjang-belanja', [KeranjangBelanjaController::class,
 Route::get('/latihan_uas/keranjang-belanja/tambah', [KeranjangBelanjaController::class, 'tambah']);
 Route::post('/latihan_uas/keranjang-belanja/store', [KeranjangBelanjaController::class, 'store']);
 Route::get('/latihan_uas/keranjang-belanja/hapus/{id}', [KeranjangBelanjaController::class, 'hapus']);
+
+//crud tabel nilaikuliah
+Route::get('/latihan_uas_cewek/nilaikuliah', [NilaiKuliahController::class, 'index']);
+Route::get('/latihan_uas_cewek/nilaikuliah/tambah', [NilaiKuliahController::class, 'tambah']);
+Route::post('/latihan_uas_cewek/nilaikuliah/store', [NilaiKuliahController::class, 'store']);
+Route::get('/latihan_uas_cewek/nilaikuliah/hapus/{id}', [NilaiKuliahController::class, 'hapus']);

@@ -28,7 +28,7 @@
                         <a class="nav-link" href="/latihan_uas/keranjang-belanja">PR 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PR 3</a>
+                        <a class="nav-link" href="/latihan_uas_cewek/nilaikuliah">PR 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">EAS</a>
