@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Tambah ke Keranjang Belanja')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
 <a href="/latihan_uas/keranjang-belanja" class="btn btn-secondary mb-4">Kembali</a>
 

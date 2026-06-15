@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Mengedit Data Siswa')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
     <a href="{{ route('siswa.index') }}" class="btn btn-secondary mb-4">Kembali</a>
 

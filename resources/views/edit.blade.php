@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Edit Data Pegawai')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
 <a href="/pegawai" class="btn btn-secondary mb-4">Kembali</a>
 

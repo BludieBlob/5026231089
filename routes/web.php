@@ -68,3 +68,9 @@ Route::post('/latihan_uas_cewek/nilaikuliah/store', [NilaiKuliahController::clas
 Route::get('/latihan_uas_cewek/nilaikuliah/hapus/{id}', [NilaiKuliahController::class, 'hapus']);
 
 //Persiapan EAS
+//route untuk menampilkan data tagihan air
+Route::get('/eas', [App\Http\Controllers\TagihanAirController::class, 'index'])->name('tagihan.index');
+//route untuk menampilkan form tambah tagihan air
+Route::get('/eas/create', [App\Http\Controllers\TagihanAirController::class, 'create'])->name('tagihan.create');
+//route untuk menyimpan data tagihan air
+Route::post('/eas', [App\Http\Controllers\TagihanAirController::class, 'store'])->name('tagihan.store');

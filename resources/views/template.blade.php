@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>5026231089 Yusuf Acala Sadurjaya Sri Krisna</title>
+    <title>@yield('title')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class ="mt-4 p-5 bg-primary text-white rounded">
-            <h3>5026231089 Yusuf Acala Sadurjaya Sri Krisna</h3>
+            <h3>@yield('Jumbotron')</h3>
         </div>
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <div class="container-fluid">
@@ -31,7 +31,7 @@
                         <a class="nav-link" href="/latihan_uas_cewek/nilaikuliah">PR 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">EAS</a>
+                        <a class="nav-link" href="{{ route('tagihan.index') }}">EAS</a>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Tambah Siswa')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
 
     <div class="card">

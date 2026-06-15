@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Data Siswa')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
 
     <h1>Data Siswa</h1>

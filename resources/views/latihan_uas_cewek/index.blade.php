@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Nilai Kuliah')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
     <h1>Nilai Kuliah</h1>
     <a href="/latihan_uas_cewek/nilaikuliah/tambah" class="btn btn-primary">+ Tambah Nilai Baru</a>

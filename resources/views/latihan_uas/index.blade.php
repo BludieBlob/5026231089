@@ -1,5 +1,6 @@
 @extends('template')
 @section('title', 'Keranjang Belanja')
+@section('Jumbotron', '5026231089 Yusuf Acala Sadurjaya Sri Krisna')
 @section('konten')
     <h1>Keranjang Belanja</h1>
     <table class="table table-striped table-hover">
